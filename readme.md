@@ -1,0 +1,58 @@
+
+
+# BRFSS Assignment
+
+This repo lightly cleans and samples from the Behavioral Risk Factor
+Surveillance System (**BRFSS**) Public Use File to create smaller, human
+friendly versions for students to easily work with.
+
+``` r
+if (!require("pacman")) {
+  install.packages("pacman")
+}
+```
+
+    Loading required package: pacman
+
+``` r
+pacman::p_load(
+  tidyverse,
+  haven,
+  janitor,
+  here,
+  readxl,
+  here
+)
+```
+
+### Primary functionality
+
+There are two primary functions:
+
+1.  `clean_brfss`: to clean the raw BRFSS file. Has four parts (1) read
+    from SAS, (2) renames names to human-reabable names and (3) adds NA
+    values where appropriate, and recodes variables from numeric to
+    long-form values.
+
+2.  `write_team_files`: to write clean files to `.xlsx` files for
+    student teams. These files will end up in `/data/clean/`
+
+``` r
+source(here::here("R", "clean_brfss.R"))
+
+dat_brfss_clean <- clean_brfss()
+
+# writes files for 10 teams of 10,000 rows each
+write_team_files(
+  data = dat_brfss_clean,
+  n_teams = 10,
+  n_rows = 10000,
+  seed = 365
+)
+```
+
+### Codebook
+
+This repo also comes with two code books that are created (fairly
+manually) in the function `create_codebooks`. This should only be run if
+a variable is added or changed.

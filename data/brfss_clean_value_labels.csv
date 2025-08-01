@@ -1,0 +1,266 @@
+variable,value,label
+Sex,1,Male
+Sex,2,Female
+Sex,7,Don't know/Not sure
+Sex,9,Refused
+Marital_Status,1,Married
+Marital_Status,2,Divorced
+Marital_Status,3,Widowed
+Marital_Status,4,Separated
+Marital_Status,5,Never married
+Marital_Status,6,A member of an unmarried couple
+Marital_Status,9,Refused
+Education_Level,1,Never attended school or only kindergarten
+Education_Level,2,Grades 1 through 8 (Elementary)
+Education_Level,3,Grades 9 through 11 (Some high school)
+Education_Level,4,Grade 12 or GED (High school graduate)
+Education_Level,5,College 1 year to 3 years (Some college or technical school)
+Education_Level,6,College 4 years or more (College graduate)
+Education_Level,9,Refused
+Employment_Status,1,Employed for wages
+Employment_Status,2,Self-employed
+Employment_Status,3,Out of work for 1 year or more
+Employment_Status,4,Out of work for less than 1 year
+Employment_Status,5,A homemaker
+Employment_Status,6,A student
+Employment_Status,7,Retired
+Employment_Status,8,Unable to work
+Employment_Status,9,Refused
+Income_Level,1,"Less than $10,000"
+Income_Level,2,"Less than $15,000 ($10,000 to less than $15,000)"
+Income_Level,3,"Less than $20,000 ($15,000 to less than $20,000)"
+Income_Level,4,"Less than $25,000 ($20,000 to less than $25,000)"
+Income_Level,5,"Less than $35,000 ($25,000 to less than $35,000)"
+Income_Level,6,"Less than $50,000 ($35,000 to less than $50,000)"
+Income_Level,7,"Less than $75,000 ($50,000 to less than $75,000)"
+Income_Level,8,"Less than $100,000 ($75,000 to less than $100,000)"
+Income_Level,9,"Less than $150,000 ($100,000 to less than $150,000)"
+Income_Level,10,"Less than $200,000 ($150,000 to less than $200,000)"
+Income_Level,11,"$200,000 or more"
+Income_Level,77,Don't know/Not sure
+Income_Level,99,Refused
+Veteran_Status,1,Yes
+Veteran_Status,2,No
+Veteran_Status,7,Don't know/Not sure
+Veteran_Status,9,Refused
+Own_or_Rent_Home,1,Own
+Own_or_Rent_Home,2,Rent
+Own_or_Rent_Home,3,Other arrangement
+Own_or_Rent_Home,7,Don't know/Not sure
+Own_or_Rent_Home,9,Refused
+Birth_Sex,1,Male
+Birth_Sex,2,Female
+Birth_Sex,7,Don't know/Not sure
+Birth_Sex,9,Refused
+Transgender,1,"Yes, transgender, male-to-female"
+Transgender,2,"Yes, transgender, female-to-male"
+Transgender,3,"Yes, transgender, gender nonconforming"
+Transgender,4,No
+Transgender,7,Don't know/Not sure
+Transgender,9,Refused
+General_Health,1,Excellent
+General_Health,2,Very good
+General_Health,3,Good
+General_Health,4,Fair
+General_Health,5,Poor
+General_Health,7,Don't know/Not sure
+General_Health,9,Refused
+Health_Coverage,1,Yes
+Health_Coverage,2,No
+Health_Coverage,7,Don't know/Not sure
+Health_Coverage,9,Refused
+Personal_Doctor,1,"Yes, only one"
+Personal_Doctor,2,More than one
+Personal_Doctor,3,No
+Personal_Doctor,7,Don't know/Not sure
+Personal_Doctor,9,Refused
+Medical_Cost_Barrier,1,Yes
+Medical_Cost_Barrier,2,No
+Medical_Cost_Barrier,7,Don't know/Not sure
+Medical_Cost_Barrier,9,Refused
+Checkup,1,Within past year (anytime less than 12 months ago)
+Checkup,2,Within past 2 years (1 year but less than 2 years ago)
+Checkup,3,Within past 5 years (2 years but less than 5 years ago)
+Checkup,4,5 or more years ago
+Checkup,7,Don't know/Not sure
+Checkup,8,Never
+Checkup,9,Refused
+Exercise,1,Yes
+Exercise,2,No
+Exercise,7,Don't know/Not sure
+Exercise,9,Refused
+Strength_Training,1,Yes
+Strength_Training,2,No
+Strength_Training,7,Don't know/Not sure
+Strength_Training,9,Refused
+High_Blood_Pressure,1,Yes
+High_Blood_Pressure,2,"Yes, but female told only during pregnancy"
+High_Blood_Pressure,3,No
+High_Blood_Pressure,4,"No, pre-hypertension or borderline high blood pressure"
+High_Blood_Pressure,7,Don't know/Not sure
+High_Blood_Pressure,9,Refused
+BP_Medication,1,Yes
+BP_Medication,2,No
+BP_Medication,7,Don't know/Not sure
+BP_Medication,9,Refused
+High_Cholesterol,1,Yes
+High_Cholesterol,2,No
+High_Cholesterol,7,Don't know/Not sure
+High_Cholesterol,9,Refused
+Cholesterol_Medication,1,Yes
+Cholesterol_Medication,2,No
+Cholesterol_Medication,7,Don't know/Not sure
+Cholesterol_Medication,9,Refused
+Heart_Attack,1,Yes
+Heart_Attack,2,No
+Heart_Attack,7,Don't know/Not sure
+Heart_Attack,9,Refused
+Heart_Disease,1,Yes
+Heart_Disease,2,No
+Heart_Disease,7,Don't know/Not sure
+Heart_Disease,9,Refused
+Stroke,1,Yes
+Stroke,2,No
+Stroke,7,Don't know/Not sure
+Stroke,9,Refused
+Asthma_Ever,1,Yes
+Asthma_Ever,2,No
+Asthma_Ever,7,Don't know/Not sure
+Asthma_Ever,9,Refused
+Asthma_Current,1,Yes
+Asthma_Current,2,No
+Asthma_Current,7,Don't know/Not sure
+Asthma_Current,9,Refused
+COPD,1,Yes
+COPD,2,No
+COPD,7,Don't know/Not sure
+COPD,9,Refused
+Skin_Cancer,1,Yes
+Skin_Cancer,2,No
+Skin_Cancer,7,Don't know/Not sure
+Skin_Cancer,9,Refused
+Other_Cancer,1,Yes
+Other_Cancer,2,No
+Other_Cancer,7,Don't know/Not sure
+Other_Cancer,9,Refused
+Depression,1,Yes
+Depression,2,No
+Depression,7,Don't know/Not sure
+Depression,9,Refused
+Kidney_Disease,1,Yes
+Kidney_Disease,2,No
+Kidney_Disease,7,Don't know/Not sure
+Kidney_Disease,9,Refused
+Arthritis,1,Yes
+Arthritis,2,No
+Arthritis,7,Don't know/Not sure
+Arthritis,9,Refused
+Vision_Difficulty,1,Yes
+Vision_Difficulty,2,No
+Vision_Difficulty,7,Don't know/Not sure
+Vision_Difficulty,9,Refused
+Hearing_Difficulty,1,Yes
+Hearing_Difficulty,2,No
+Hearing_Difficulty,7,Don't know/Not sure
+Hearing_Difficulty,9,Refused
+Cognitive_Difficulty,1,Yes
+Cognitive_Difficulty,2,No
+Cognitive_Difficulty,7,Don't know/Not sure
+Cognitive_Difficulty,9,Refused
+Mobility_Difficulty,1,Yes
+Mobility_Difficulty,2,No
+Mobility_Difficulty,7,Don't know/Not sure
+Mobility_Difficulty,9,Refused
+Self_Care_Difficulty,1,Yes
+Self_Care_Difficulty,2,No
+Self_Care_Difficulty,7,Don't know/Not sure
+Self_Care_Difficulty,9,Refused
+Independent_Living_Difficulty,1,Yes
+Independent_Living_Difficulty,2,No
+Independent_Living_Difficulty,7,Don't know/Not sure
+Independent_Living_Difficulty,9,Refused
+Diabetes,1,Yes
+Diabetes,2,"Yes, but female told only during pregnancy"
+Diabetes,3,No
+Diabetes,4,"No, pre-diabetes or borderline diabetes"
+Diabetes,7,Don't know/Not sure
+Diabetes,9,Refused
+Prediabetes,1,Yes
+Prediabetes,2,No
+Prediabetes,7,Don't know/Not sure
+Prediabetes,9,Refused
+Diabetes_Type,1,Type 1
+Diabetes_Type,2,Type 2
+Diabetes_Type,3,Other type of diabetes
+Diabetes_Type,7,Don't know/Not sure
+Diabetes_Type,9,Refused
+Insulin_Use,1,Yes
+Insulin_Use,2,No
+Insulin_Use,7,Don't know/Not sure
+Insulin_Use,9,Refused
+Pregnancy_Status,1,Yes
+Pregnancy_Status,2,No
+Pregnancy_Status,7,Don't know/Not sure
+Pregnancy_Status,9,Refused
+Smoked_100_Cigarettes,1,Yes
+Smoked_100_Cigarettes,2,No
+Smoked_100_Cigarettes,7,Don't know/Not sure
+Smoked_100_Cigarettes,9,Refused
+Current_Smoking_Status,1,Every day
+Current_Smoking_Status,2,Some days
+Current_Smoking_Status,3,Not at all
+Current_Smoking_Status,7,Don't know/Not sure
+Current_Smoking_Status,9,Refused
+E_Cigarette_Use,1,Every day
+E_Cigarette_Use,2,Some days
+E_Cigarette_Use,3,Not at all
+E_Cigarette_Use,7,Don't know/Not sure
+E_Cigarette_Use,9,Refused
+Smokeless_Tobacco,1,Every day
+Smokeless_Tobacco,2,Some days
+Smokeless_Tobacco,3,Not at all
+Smokeless_Tobacco,7,Don't know/Not sure
+Smokeless_Tobacco,9,Refused
+Seatbelt_Use,1,Always
+Seatbelt_Use,2,Nearly always
+Seatbelt_Use,3,Sometimes
+Seatbelt_Use,4,Seldom
+Seatbelt_Use,5,Never
+Seatbelt_Use,7,Don't know/Not sure
+Seatbelt_Use,8,Never drive or ride in a car
+Seatbelt_Use,9,Refused
+COVID_Positive,1,Yes
+COVID_Positive,2,No
+COVID_Positive,7,Don't know/Not sure
+COVID_Positive,9,Refused
+COVID_Symptoms,1,Yes
+COVID_Symptoms,2,No
+COVID_Symptoms,7,Don't know/Not sure
+COVID_Symptoms,9,Refused
+COVID_Vaccine,1,Yes
+COVID_Vaccine,2,No
+COVID_Vaccine,7,Don't know/Not sure
+COVID_Vaccine,9,Refused
+Life_Satisfaction,1,Very satisfied
+Life_Satisfaction,2,Satisfied
+Life_Satisfaction,3,Dissatisfied
+Life_Satisfaction,4,Very dissatisfied
+Life_Satisfaction,7,Don't know/Not sure
+Life_Satisfaction,9,Refused
+Emotional_Support,1,Always
+Emotional_Support,2,Usually
+Emotional_Support,3,Sometimes
+Emotional_Support,4,Rarely
+Emotional_Support,5,Never
+Emotional_Support,7,Don't know/Not sure
+Emotional_Support,9,Refused
+Social_Isolation,1,Always
+Social_Isolation,2,Usually
+Social_Isolation,3,Sometimes
+Social_Isolation,4,Rarely
+Social_Isolation,5,Never
+Social_Isolation,7,Don't know/Not sure
+Social_Isolation,9,Refused
+Missing_Codes,77,Don't know/Not sure
+Missing_Codes,88,None/Not applicable
+Missing_Codes,99,Refused

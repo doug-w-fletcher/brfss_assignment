@@ -1,0 +1,93 @@
+new_column,old_column,description
+ID,seqno,Unique respondent identifier
+Sex,sexvar,Respondent sex/gender
+Marital_Status,marital,Marital status
+Education_Level,educa,Education level completed
+Employment_Status,employ1,Employment status
+Income_Level,income3,Household income level
+Veteran_Status,veteran3,Military veteran status
+Number_of_Children,children,Number of children in household
+Own_or_Rent_Home,renthom1,Own or rent primary residence
+Birth_Sex,birthsex,Sex assigned at birth
+Transgender,trnsgndr,Transgender identity
+Height_inches,htin4,Height in inches
+Height_cm,htm4,Height in centimeters
+Weight_kg,wtkg3,Weight in kilograms
+Weight_pounds,weight2,Weight in pounds
+Height_feet_inches,height3,Height in feet and inches
+BMI,bmi5,Body Mass Index (BMI)
+BMI_Category,bmi5cat,BMI category classification
+General_Health,genhlth,General health status self-assessment
+Physical_Health_Days,physhlth,Number of days physical health not good in past 30 days
+Mental_Health_Days,menthlth,Number of days mental health not good in past 30 days
+Poor_Health_Days,poorhlth,Number of days poor physical or mental health kept you from usual activities
+Health_Coverage,primins1,Primary health insurance coverage
+Personal_Doctor,persdoc3,Have personal doctor or healthcare provider
+Medical_Cost_Barrier,medcost1,Could not see doctor because of cost in past 12 months
+Checkup,checkup1,Length of time since last routine checkup
+Exercise,exerany2,Physical activity or exercise in past 30 days
+Exercise_Type_1,exract12,Type of physical activity (first mention)
+Exercise_Type_2,exract22,Type of physical activity (second mention)
+Strength_Training,strength,Muscle strengthening activities in past 30 days
+High_Blood_Pressure,bphigh6,Ever told you have high blood pressure
+BP_Medication,bpmeds1,Currently taking blood pressure medication
+Cholesterol_Check,cholchk3,Ever had cholesterol checked
+High_Cholesterol,toldhi3,Ever told blood cholesterol is high
+Cholesterol_Medication,cholmed3,Currently taking cholesterol medication
+Heart_Attack,cvdinfr4,Ever diagnosed with heart attack
+Heart_Disease,cvdcrhd4,Ever diagnosed with coronary heart disease
+Stroke,cvdstrk3,Ever diagnosed with stroke
+Asthma_Ever,asthma3,Ever told you had asthma
+Asthma_Current,asthnow,Still have asthma
+COPD,chccopd3,Ever told you have COPD/emphysema/chronic bronchitis
+Skin_Cancer,chcscnc1,Ever told you had skin cancer
+Other_Cancer,chcocnc1,Ever told you had any other types of cancer
+Depression,addepev3,Ever told you have depressive disorder
+Kidney_Disease,chckdny2,Ever told you have kidney disease
+Arthritis,havarth4,Ever told you have arthritis/rheumatoid arthritis/gout/lupus/fibromyalgia
+Diabetes,diabete4,Ever told you have diabetes
+Diabetes_Age,diabage4,Age when first told you had diabetes
+Prediabetes,prediab2,Ever told you have prediabetes or borderline diabetes
+Diabetes_Type,diabtype,Type of diabetes
+Insulin_Use,insulin1,Are you now taking insulin
+Pregnancy_Status,pregnant,Are you currently pregnant
+Vision_Difficulty,blind,Blind or difficulty seeing even with glasses
+Hearing_Difficulty,deaf,Deaf or difficulty hearing
+Cognitive_Difficulty,decide,Difficulty concentrating/remembering/making decisions
+Mobility_Difficulty,diffwalk,Serious difficulty walking or climbing stairs
+Self_Care_Difficulty,diffdres,Difficulty dressing or bathing
+Independent_Living_Difficulty,diffalon,Difficulty doing errands alone due to physical/mental/emotional condition
+Smoked_100_Cigarettes,smoke100,Smoked at least 100 cigarettes in entire life
+Current_Smoking_Status,smokday2,Frequency of smoking cigarettes
+E_Cigarette_Use,ecignow2,Now use e-cigarettes or other electronic vaping products every day or some days
+Smokeless_Tobacco,usenow3,Use of smokeless tobacco products
+Alcohol_Consumption,alcday4,Days per week or month had alcoholic beverage in past 30 days
+Average_Drinks,avedrnk3,Average number of drinks per day when drinking
+Binge_Drinking,drnk3ge5,Binge drinking frequency in past 30 days
+Max_Drinks,maxdrnks,Most drinks on any occasion in past 30 days
+Flu_Shot,flushot7,Adult flu shot/spray past 12 months
+Pneumonia_Vaccine,pneuvac4,Ever had pneumonia vaccination
+Shingles_Vaccine,shingle2,Ever had shingles or zoster vaccine
+HIV_Test,hivtst7,Ever been tested for HIV
+Tetanus_Vaccine,tetanus1,Received tetanus shot in past 10 years
+Seatbelt_Use,seatbelt,How often use seatbelts when driving or riding in car
+Drinking_and_Driving,drnkdri2,How many times drive when had too much to drink in past 30 days
+COVID_Positive,covidpo1,Ever tested positive for COVID-19
+COVID_Symptoms,covidsm1,Ever had COVID-19 symptoms
+COVID_Activity_Change,covidact,COVID-19 impact on physical activity
+COVID_Vaccine,covidva1,Received at least one dose of COVID-19 vaccine
+Mammogram,hadmam,Ever had mammogram
+Cervical_Cancer_Screen,cervscrn,Ever had cervical cancer screening test
+PSA_Test,psatest1,Ever had PSA test
+Colonoscopy,hadsigm4,Ever had sigmoidoscopy or colonoscopy
+Sigmoidoscopy,colnsigm,Ever had sigmoidoscopy exam
+Falls_12_Months,fall12mn,How many times did you fall in past 12 months
+Fall_Injury,fallinj5,Were you injured in a fall in past 12 months
+Life_Satisfaction,lsatisfy,Satisfaction with life
+Emotional_Support,emtsuprt,How often get social and emotional support needed
+Social_Isolation,sdlonely,How often feel socially isolated from others
+Food_Stamps,foodstmp,Received food stamps/SNAP benefits in past 12 months
+Food_Security,sdhfood1,How often worried food would run out before got money to buy more
+Transportation,sdhtrnsp,Delayed/did not get medical care due to transportation in past 12 months
+Cell_Phone_Use,cpdemo1c,Demographic information about cellular phone usage
+Household_Phones,numhhol4,Number of household members
