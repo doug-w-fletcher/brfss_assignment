@@ -46,8 +46,8 @@ write_team_files <- function(data, n_teams, n_rows = 1e4, seed = 365) {
     1:n_teams,
     ~ {
       slice_sample(data, n = n_rows) |>
-        write_excel_csv(
-          file = here::here("data", "clean", paste0("Team_", .x, ".xlsx"))
+        writexl::write_xlsx(
+          path = here::here("data", "clean", paste0("Team_", .x, ".xlsx"))
         )
     }
   )

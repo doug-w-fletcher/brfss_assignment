@@ -7,6 +7,7 @@ format: gfm
 This repo lightly cleans and samples from the Behavioral Risk Factor Surveillance System (**BRFSS**) Public Use File to create smaller, human friendly versions for students to easily work with.
 
 ```{r Setup}
+#| include: false
 if (!require("pacman")) {
   install.packages("pacman")
 }
@@ -17,7 +18,8 @@ pacman::p_load(
   janitor,
   here,
   readxl,
-  here
+  writexl,
+  gt
 )
 ```
 

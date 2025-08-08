@@ -6,25 +6,6 @@ This repo lightly cleans and samples from the Behavioral Risk Factor
 Surveillance System (**BRFSS**) Public Use File to create smaller, human
 friendly versions for students to easily work with.
 
-``` r
-if (!require("pacman")) {
-  install.packages("pacman")
-}
-```
-
-    Loading required package: pacman
-
-``` r
-pacman::p_load(
-  tidyverse,
-  haven,
-  janitor,
-  here,
-  readxl,
-  here
-)
-```
-
 ### Primary functionality
 
 There are two primary functions:

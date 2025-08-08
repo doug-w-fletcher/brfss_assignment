@@ -7,4 +7,10 @@ write_codebooks <- function() {
   # write values code book
   brfss_value_labels_df <- create_value_labels_df(brfss_value_labels)
   write_csv(brfss_value_labels_df, here("data", "brfss_clean_value_labels.csv"))
+
+  gt::gt(brfss_codebook) |>
+    gt::gtsave(here("data", "brfss_clean_codebook.docx"))
+
+  gt::gt(brfss_value_labels_df) |>
+    gt::gtsave(here("data", "brfss_value_labels.docx"))
 }
