@@ -4,6 +4,7 @@ brfss_codebook <- tribble(
   
   # Identifier
   "ID", "seqno", "Unique respondent identifier",
+  "State", "state", "State Value",
   
   # Demographics
   "Sex", "sexvar", "Respondent sex/gender",
@@ -15,16 +16,16 @@ brfss_codebook <- tribble(
   "Number_of_Children", "children", "Number of children in household",
   "Own_or_Rent_Home", "renthom1", "Own or rent primary residence",
   "Birth_Sex", "birthsex", "Sex assigned at birth",
-  "Transgender", "trnsgndr", "Transgender identity",
+  # "Transgender", "trnsgndr", "Transgender identity",
   
   # Physical measurements
-  "Height_inches", "htin4", "Height in inches",
-  "Height_cm", "htm4", "Height in centimeters",
-  "Weight_kg", "wtkg3", "Weight in kilograms",
-  "Weight_pounds", "weight2", "Weight in pounds",
-  "Height_feet_inches", "height3", "Height in feet and inches",
+  # "Height_inches", "htin4", "Height in inches",
+  # "Height_cm", "htm4", "Height in centimeters",
+  # "Weight_kg", "wtkg3", "Weight in kilograms",
+  # "Weight_pounds", "weight2", "Weight in pounds",
+  # "Height_feet_inches", "height3", "Height in feet and inches",
   "BMI", "bmi5", "Body Mass Index (BMI)",
-  "BMI_Category", "bmi5cat", "BMI category classification",
+  # "BMI_Category", "bmi5cat", "BMI category classification",
   
   # General Health & Quality of Life
   "General_Health", "genhlth", "General health status self-assessment",
@@ -40,9 +41,9 @@ brfss_codebook <- tribble(
   
   # Physical Activity & Exercise
   "Exercise", "exerany2", "Physical activity or exercise in past 30 days",
-  "Exercise_Type_1", "exract12", "Type of physical activity (first mention)",
-  "Exercise_Type_2", "exract22", "Type of physical activity (second mention)",
-  "Strength_Training", "strength", "Muscle strengthening activities in past 30 days",
+  # "Exercise_Type_1", "exract12", "Type of physical activity (first mention)",
+  # "Exercise_Type_2", "exract22", "Type of physical activity (second mention)",
+  # "Strength_Training", "strength", "Muscle strengthening activities in past 30 days",
   
   # Cardiovascular Health
   "High_Blood_Pressure", "bphigh6", "Ever told you have high blood pressure",
@@ -59,11 +60,11 @@ brfss_codebook <- tribble(
   # Respiratory Health
   "Asthma_Ever", "asthma3", "Ever told you had asthma",
   "Asthma_Current", "asthnow", "Still have asthma",
-  "COPD", "chccopd3", "Ever told you have COPD/emphysema/chronic bronchitis",
+  # "COPD", "chccopd3", "Ever told you have COPD/emphysema/chronic bronchitis",
   
   # Cancer History
-  "Skin_Cancer", "chcscnc1", "Ever told you had skin cancer",
-  "Other_Cancer", "chcocnc1", "Ever told you had any other types of cancer",
+  # "Skin_Cancer", "chcscnc1", "Ever told you had skin cancer",
+  # "Other_Cancer", "chcocnc1", "Ever told you had any other types of cancer",
   
   # Other Chronic Conditions
   "Depression", "addepev3", "Ever told you have depressive disorder",
@@ -71,12 +72,12 @@ brfss_codebook <- tribble(
   "Arthritis", "havarth4", "Ever told you have arthritis/rheumatoid arthritis/gout/lupus/fibromyalgia",
   "Diabetes", "diabete4", "Ever told you have diabetes",
   "Diabetes_Age", "diabage4", "Age when first told you had diabetes",
-  "Prediabetes", "prediab2", "Ever told you have prediabetes or borderline diabetes",
-  "Diabetes_Type", "diabtype", "Type of diabetes",
-  "Insulin_Use", "insulin1", "Are you now taking insulin",
+  # "Prediabetes", "prediab2", "Ever told you have prediabetes or borderline diabetes",
+  # "Diabetes_Type", "diabtype", "Type of diabetes",
+  # "Insulin_Use", "insulin1", "Are you now taking insulin",
   
   # Pregnancy
-  "Pregnancy_Status", "pregnant", "Are you currently pregnant",
+  # "Pregnancy_Status", "pregnant", "Are you currently pregnant",
   
   # Disability & Functional Limitations
   "Vision_Difficulty", "blind", "Blind or difficulty seeing even with glasses",
@@ -93,34 +94,34 @@ brfss_codebook <- tribble(
   "Smokeless_Tobacco", "usenow3", "Use of smokeless tobacco products",
   
   # Alcohol Consumption
-  "Alcohol_Consumption", "alcday4", "Days per week or month had alcoholic beverage in past 30 days",
+  # "Alcohol_Consumption", "alcday4", "Days per week or month had alcoholic beverage in past 30 days",
   "Average_Drinks", "avedrnk3", "Average number of drinks per day when drinking",
   "Binge_Drinking", "drnk3ge5", "Binge drinking frequency in past 30 days",
-  "Max_Drinks", "maxdrnks", "Most drinks on any occasion in past 30 days",
+  # "Max_Drinks", "maxdrnks", "Most drinks on any occasion in past 30 days",
   
   # Preventive Care
   "Flu_Shot", "flushot7", "Adult flu shot/spray past 12 months",
   "Pneumonia_Vaccine", "pneuvac4", "Ever had pneumonia vaccination",
   "Shingles_Vaccine", "shingle2", "Ever had shingles or zoster vaccine",
-  "HIV_Test", "hivtst7", "Ever been tested for HIV",
-  "Tetanus_Vaccine", "tetanus1", "Received tetanus shot in past 10 years",
+  # "HIV_Test", "hivtst7", "Ever been tested for HIV",
+  # "Tetanus_Vaccine", "tetanus1", "Received tetanus shot in past 10 years",
   
   # Safety Behaviors
-  "Seatbelt_Use", "seatbelt", "How often use seatbelts when driving or riding in car",
+  # "Seatbelt_Use", "seatbelt", "How often use seatbelts when driving or riding in car",
   "Drinking_and_Driving", "drnkdri2", "How many times drive when had too much to drink in past 30 days",
   
   # COVID-19 Related
   "COVID_Positive", "covidpo1", "Ever tested positive for COVID-19",
-  "COVID_Symptoms", "covidsm1", "Ever had COVID-19 symptoms",
-  "COVID_Activity_Change", "covidact", "COVID-19 impact on physical activity",
-  "COVID_Vaccine", "covidva1", "Received at least one dose of COVID-19 vaccine",
+  # "COVID_Symptoms", "covidsm1", "Ever had COVID-19 symptoms",
+  # "COVID_Activity_Change", "covidact", "COVID-19 impact on physical activity",
+  # "COVID_Vaccine", "covidva1", "Received at least one dose of COVID-19 vaccine",
   
   # Cancer Screening
-  "Mammogram", "hadmam", "Ever had mammogram",
-  "Cervical_Cancer_Screen", "cervscrn", "Ever had cervical cancer screening test",
-  "PSA_Test", "psatest1", "Ever had PSA test",
-  "Colonoscopy", "hadsigm4", "Ever had sigmoidoscopy or colonoscopy",
-  "Sigmoidoscopy", "colnsigm", "Ever had sigmoidoscopy exam",
+  # "Mammogram", "hadmam", "Ever had mammogram",
+  # "Cervical_Cancer_Screen", "cervscrn", "Ever had cervical cancer screening test",
+  # "PSA_Test", "psatest1", "Ever had PSA test",
+  # "Colonoscopy", "hadsigm4", "Ever had sigmoidoscopy or colonoscopy",
+  # "Sigmoidoscopy", "colnsigm", "Ever had sigmoidoscopy exam",
   
   # Falls & Injury
   "Falls_12_Months", "fall12mn", "How many times did you fall in past 12 months",
@@ -132,11 +133,11 @@ brfss_codebook <- tribble(
   "Social_Isolation", "sdlonely", "How often feel socially isolated from others",
   "Food_Stamps", "foodstmp", "Received food stamps/SNAP benefits in past 12 months",
   "Food_Security", "sdhfood1", "How often worried food would run out before got money to buy more",
-  "Transportation", "sdhtrnsp", "Delayed/did not get medical care due to transportation in past 12 months",
+  # "Transportation", "sdhtrnsp", "Delayed/did not get medical care due to transportation in past 12 months",
   
   # Contact/Survey Info
-  "Cell_Phone_Use", "cpdemo1c", "Demographic information about cellular phone usage",
-  "Household_Phones", "numhhol4", "Number of household members"
+  # "Cell_Phone_Use", "cpdemo1c", "Demographic information about cellular phone usage",
+  # "Household_Phones", "numhhol4", "Number of household members"
 )
 
 brfss_value_labels <- list(
@@ -569,6 +570,62 @@ brfss_value_labels <- list(
     "4" = "Rarely",
     "5" = "Never",
     "7" = "Don't know/Not sure",
+    "9" = "Refused"
+  ),
+  # Add these to your brfss_value_labels list in R/brfss_values.R
+
+  # Food Stamps
+  Food_Stamps = c(
+    "1" = "Yes",
+    "2" = "No",
+    "7" = "Don't know/Not sure",
+    "9" = "Refused"
+  ),
+
+  # Food Security
+  Food_Security = c(
+    "1" = "Always",
+    "2" = "Usually",
+    "3" = "Sometimes",
+    "4" = "Rarely",
+    "5" = "Never",
+    "7" = "Don't know/Not sure",
+    "9" = "Refused"
+  ),
+
+  # Flu Shot
+  Flu_Shot = c(
+    "1" = "Yes",
+    "2" = "No",
+    "7" = "Don't know/Not sure",
+    "9" = "Refused"
+  ),
+
+  # Pneumonia Vaccine
+  Pneumonia_Vaccine = c(
+    "1" = "Yes",
+    "2" = "No",
+    "7" = "Don't know/Not sure",
+    "9" = "Refused"
+  ),
+
+  # Shingles Vaccine
+  Shingles_Vaccine = c(
+    "1" = "Yes",
+    "2" = "No",
+    "7" = "Don't know/Not sure",
+    "9" = "Refused"
+  ),
+
+  Cholesterol_Check = c(
+    "1" = "Never",
+    "2" = "Within the past year (anytime less than one year ago)",
+    "3" = "Within the past 2 years (1 year but less than 2 years ago)",
+    "4" = "Within the past 3 years (2 years but less than 3 years ago)",
+    "5" = "Within the past 4 years (3 years but less than 4 years ago)",
+    "6" = "Within the past 5 years (4 years but less than 5 years ago)",
+    "7" = "Don't know/Not sure",
+    "8" = "5 or more years ago",
     "9" = "Refused"
   ),
 
